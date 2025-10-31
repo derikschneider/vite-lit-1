@@ -5,13 +5,18 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DS</title>
+
+    <!-- Vite will process this CSS -->
     <link rel="stylesheet" href="./src/index.css" />
-    <script type="module" src="/src/my-element.ts"></script>
+
+    <!-- Root entry file for Vite build -->
+    <script type="module" src="/src/main.ts"></script>
   </head>
   <body>
+    <!-- Your component in the DOM -->
     <my-element>
       <h1>Vite + Lit</h1>
-      <div style="background:red; width: 100%; display: flex; height: 50px"></div>
+      <div style="background:lime; width: 100%; display: flex; height: 50px"></div>
     </my-element>
   </body>
 </html>
