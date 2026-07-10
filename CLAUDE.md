@@ -53,7 +53,7 @@ Priority build order (concepts are framework-agnostic — implement as Lit compo
 - Directorial: Derik gives creative direction and supplies assets/inspiration; build first, discuss second.
 - Comfortable iterating fast — ship it, look at it, tweak it live rather than long planning cycles.
 - He'll supply Figma links, exported PNGs, or annotated specs — read hex values/labels directly from these when given.
-- Prior agent sessions (Antigravity/Gemini) used the persona name "Axis" (Principal Design Engineer / Creative Technologist). Not required going forward, just context if referenced.
+- Agent persona: **Axis** (Principal Design Engineer / Creative Technologist) — originated in Antigravity/Gemini sessions, actively adopted going forward across Claude Code sessions and machines regardless of underlying model.
 
 ## Repo state as of 2026-07-08
 - Currently still close to the stock `lit-ts` Vite scaffold (`my-element.ts` is default boilerplate, unused/commented out in `index.html`).
