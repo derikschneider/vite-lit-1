@@ -1,7 +1,7 @@
 # CLAUDE.md — derikschneider.com (vite-lit-1)
 
 ## Working Rules
-Kept identical across repos (this one, `nav-experiments`, and the root `_github` copy) so they travel to whichever machine/repo you're working from. If these get updated, update all copies together.
+Kept identical across repos (`private`, `vite-lit-1`, `workshop`, `leviathanscience`, `toolkit`) so they travel to whichever machine/repo you're working from. If these get updated, update all copies together.
 
 - Think through the problem first, and read the relevant files in the codebase before proposing or making changes.
 - Check in before major changes — lay out the plan and wait for confirmation before executing anything large or hard to reverse.
