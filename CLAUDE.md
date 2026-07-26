@@ -9,6 +9,8 @@ Kept identical across repos (this one, `nav-experiments`, and the root `_github`
 - Keep every change as small and targeted as possible. Touch as little code as necessary to do the job. No speculative refactors, no scope creep, no unrequested cleanup while in the area — exception: sweeping changes (e.g. deleting an entire project or folder) are fine when explicitly asked for, but scope them exactly to what was requested.
 - Never speculate about code that hasn't been opened. If a specific file is referenced, read it before answering. Investigate before making claims about the codebase — no guessing.
 - Each project should have a maintained doc describing its architecture end-to-end, kept current as the project changes.
+- Verify actual output, not just absence-of-errors — a clean typecheck or a script exiting 0 is not proof of correctness. Check the real result (render it, view the image, spot-check the data) before calling something done, and prefer two independent signals over one when it matters (raw source vs. a summarized fetch, `curl` vs. a browser timeout, and so on).
+- Fix real bugs and debt the moment they're found, not after finishing the current task — a fix is cheapest right when it's caught, and deferred debt compounds as fast as new code gets generated.
 
 ## What this is
 Derik Schneider's personal site/portfolio. Repo: `github.com/derikschneider/vite-lit-1`, deployed to derikschneider.com via GitHub Pages.
