@@ -11,6 +11,7 @@ Kept identical across repos (`private`, `vite-lit-1`, `workshop`, `leviathanscie
 - Each project should have a maintained doc describing its architecture end-to-end, kept current as the project changes.
 - Verify actual output, not just absence-of-errors — a clean typecheck or a script exiting 0 is not proof of correctness. Check the real result (render it, view the image, spot-check the data) before calling something done, and prefer two independent signals over one when it matters (raw source vs. a summarized fetch, `curl` vs. a browser timeout, and so on).
 - Fix real bugs and debt the moment they're found, not after finishing the current task — a fix is cheapest right when it's caught, and deferred debt compounds as fast as new code gets generated.
+- When a TODO/open-item note gets resolved (status doc, README, inline comment), update or remove that note in the same session the resolving change lands — don't leave documentation claiming something is still open once the commit history or code shows it's done. A future session trusts these notes without re-verifying against source; a stale one costs that session real time re-litigating something already settled (e.g. `portfolio-next/CLAUDE.md`'s "Known open gaps" list survived three resolving commits before anyone noticed, 2026-07-27).
 
 ## What this is
 Derik Schneider's personal site/portfolio. Repo: `github.com/derikschneider/vite-lit-1`, deployed to derikschneider.com via GitHub Pages.
